@@ -6,5 +6,4 @@ description      'Installs/Configures sample-app'
 long_description 'Installs/Configures sample-app'
 version          '0.1.0'
 
-depends 'tomcat'
-depends 'httpd'
+depends 'java'
