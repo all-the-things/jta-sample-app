@@ -6,4 +6,13 @@
 
 # Install the service
 
-include_recipe 'java'
+include_recipe 'tomcat'
+
+war = "#{node['tomcat']['webapp_dir']}/#{node['sample-app']['app-name']}.war"
+remote_file war do
+  source node['sample-app']['url']
+end
+
+httpd_service 'default' do
+  action [:create, :start]
+end
