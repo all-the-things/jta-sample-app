@@ -1,4 +1,4 @@
-# my-app
+# sample-app
 
-TODO: Enter the cookbook description here.
-
+# Sample-App Cookbook
+This cookbook installs Java, Tomcat, Apache and deploys a sample war file.
