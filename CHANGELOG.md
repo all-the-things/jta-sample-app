@@ -3,3 +3,5 @@
 ### New features
 * install Java
 * modify .kitchen.yml to suit our needs
+
+# New change.
